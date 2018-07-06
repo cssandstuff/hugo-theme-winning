@@ -1,0 +1,8 @@
+{{ $str := print .Inner }}
+{{ $str := replace $str "<ul>" "<dl>"}}
+{{ $str := replace $str "</ul>" "</dl>"}}
+{{ $str := replace $str "<ol>\n<li>" "<dd>" }}
+{{ $str := replace $str "</li>\n</ol>" "</dd>" }}
+{{ $str := replace $str "<li>" "<dt>" }}
+{{ $str := replace $str "</li>" "</dt>" }}
+{{ markdownify $str }}
