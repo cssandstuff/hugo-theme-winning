@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://cssandstuff@github.com/cssandstuff/cv.git"
+    "url": "git+https://cssandstuff@github.com/cssandstuff/hugo-theme-winning.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cssandstuff/cv/issues"
+    "url": "https://github.com/cssandstuff/hugo-theme-winning/issues"
   },
   "homepage": "https://github.com/cssandstuff/cv#readme",
   "devDependencies": {
