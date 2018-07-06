@@ -1,7 +1,12 @@
+theme = "winning"
+title = "Winning"
+
+baseurl = "your-site-address"
+title = "your-site-name"
+themesdir = "../.."
+
 disableKinds = ["RSS"]
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 languageCode = "en-us"
-theme = "winning"
-title = "CV Tim Clulow"
 [taxonomies]
