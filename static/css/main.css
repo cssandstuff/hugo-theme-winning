@@ -21,6 +21,7 @@ footer a:hover{
   grid-template-areas: "header" "main" "footer";
   grid-template-rows: 0fr auto 1fr;
 }
+
 @media only screen and (min-width: 1240px) {
   .grid-layout-1{
     margin: auto;
@@ -33,6 +34,7 @@ footer a:hover{
   grid-area: header;
   padding-top: 2em;
 }
+
 .main{
   grid-area: main;
   margin: 1em auto 40px;
