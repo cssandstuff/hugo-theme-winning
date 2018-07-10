@@ -29,4 +29,4 @@ This is a Simple 1 page site that will also generate a pdf version of the same t
 
 5. Let's start HUGO Server
 
-   ```HUGO_THEME=winning hugo server -t winning -c themes/winning/exampleSite/content/```
+   ```HUGO_THEME=winning hugo server -c themes/winning/exampleSite/content/```
