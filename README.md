@@ -1,5 +1,6 @@
 # Winning
-#### A theme for [Hugo](http://gohugo.io/), a framework for building websites.
+#### A one page CV template for [Hugo](http://gohugo.io/).
+Generates a nicely formatted CV from a markdown file.
 
 ![Winning Theme Screenshot](https://github.com/cssandstuff/hugo-theme-winning/blob/master/images/screenshot.png)
 
