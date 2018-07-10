@@ -8,10 +8,14 @@ This is a Simple 1 page site that will also generate a pdf version of the same t
 ## Basic Usage
 1. Make sure to [Install hugo](https://gohugo.io/getting-started/installing/)
 2. Then Let's clone a basic example
+
 ...git clone https://github.com/gohugoio/hugoBasicExample.git
 3. Enter to the folder
+
 ...cd hugoBasicExample
 4. Let's clone this theme
+
 ...git clone --recursive https://github.com/cssandstuff/hugo-theme-winning.git themes/winning
 5. Let's start HUGO Server
+
 ...hugo server -t winning -c themes/winning/exampleSite/content/
