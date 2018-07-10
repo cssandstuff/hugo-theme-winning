@@ -23,4 +23,10 @@ This is a Simple one page CV template.
    ```HUGO_THEME=winning hugo server -c themes/winning/exampleSite/content/```
 
 ## PDF Generation
-you need to run node ./generatepdf.js
+```
+npm i html-pdf -g
+```
+Copy ./generatepdf.js to the root of your hugo project.
+```
+node ./generatepdf.js
+```
