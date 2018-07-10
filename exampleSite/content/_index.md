@@ -32,9 +32,6 @@ Swine venison salami brisket ground round biltong chuck short ribs ribeye
 {{% column -span-cols-4 -p-left-3 %}}
 #### Fluent with
   * Sketch
-  * Adobe Illustrator
-  * Photoshop
-  * Fireworks
   * HTML5
   * CSS3, grid and flexbox
   * SVG animation & GSAP
