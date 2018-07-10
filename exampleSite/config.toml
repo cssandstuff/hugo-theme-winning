@@ -1,8 +1,14 @@
 baseurl = "your-site-address"
 title = "Winning"
-theme = "winning"
+theme = "hugo-theme-Winning"
+themesdir = "../.."
+
 disableKinds = ["RSS"]
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 languageCode = "en-us"
 [taxonomies]
+
+[author]
+    name = "your-name"
+    email = "your-email"

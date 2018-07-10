@@ -42,7 +42,6 @@
 
   <body class="ma0 {{ $.Param "body_classes"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
     <div class="grid-layout-1">
-      {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
       <main class="main" role="main" id="mainContent">
         {{ block "main" . }}{{ end }}
         <div id="drawing"></div>

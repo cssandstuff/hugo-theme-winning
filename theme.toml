@@ -5,9 +5,9 @@ name = "Winning"
 license = "MIT"
 licenselink = "https://github.com/cssandstuff/winning/blob/master/LICENSE.md"
 description = "A theme for creating a simple CV with pdf generation through node-html-pdf"
-homepage = "http://cssandstuff.com/"
-tags = []
-features = []
+homepage = "https://github.com/cssandstuff/hugo-theme-winning/"
+tags = ["cv", "one page"]
+features = ["simple"]
 min_version = "0.32.4"
 
 [author]
