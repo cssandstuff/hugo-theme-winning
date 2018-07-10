@@ -18,15 +18,18 @@ This is a Simple one page CV template.
 
    ```git clone --recursive https://github.com/cssandstuff/hugo-theme-winning.git themes/winning```
 
-5. Let's start HUGO Server
+5. Copy _index.mq from hugoBasicExample/themes/winning/exampleSite/content/_index.md to
+   hugoBasicExample/content/_index.md
+   
+6. Let's start HUGO Server in the terminal
 
-   ```HUGO_THEME=winning hugo server -c themes/winning/exampleSite/content/```
+   ```HUGO_THEME=winning hugo server -t winning```
 
 ## PDF Generation
 ```
 npm i html-pdf -g
 ```
-Copy generatepdf.js to the root of your hugo project.
+Copy ./generatepdf.js to the root of your hugo project.
 ```
 node ./generatepdf.js
 ```
