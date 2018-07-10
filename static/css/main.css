@@ -329,8 +329,8 @@ ul li{
     padding-right: 2em;
   }
 
-  .-p-top-1{
-    padding-top: 1em;
+  .-p-top-3{
+    padding-top: 3em;
   }
 
   .-print-only{
@@ -353,7 +353,7 @@ ul li{
   }
   
   .main h2{
-    margin: 2em 0 1em;
+    margin: 2em 0 0.4em;
   }
  
   .main h3{
