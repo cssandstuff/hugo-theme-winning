@@ -1,0 +1,29 @@
+{
+  "name": "hugo-theme-winning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generatepdf.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "hugo serve -d docs",
+    "minifycss": "postcss ./themes/winning/static/css/main.css > ./docs/css/main.min.css && postcss ./themes/winning/static/css/belmu.css > ./docs/css/belmu.min.css",
+    "stage": "HUGO_ENV=production npm start | npm run minifycss",
+    "build": "HUGO_ENV=production hugo -d docs && npm run minifycss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cssandstuff@github.com/cssandstuff/hugo-theme-winning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cssandstuff/cv/issues"
+  },
+  "homepage": "https://github.com/cssandstuff/cv#readme",
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "html-pdf": "^2.2.0"
+  }
+}

@@ -1,6 +1,6 @@
 var fs = require('fs');
 var pdf = require('html-pdf');
-var html = fs.readFileSync('./docs/index.html', 'utf8');
+var html = fs.readFileSync('./public/index.html', 'utf8');
 var options = { 
   "format": 'A4',
   "border": {
@@ -13,5 +13,5 @@ var options = {
 
 pdf.create(html, options).toFile('./themes/winning/static/assets/cv.pdf', function(err, res) {
   if (err) return console.log(err);
-  console.log(res); // { filename: '/app/businesscard.pdf' }
+  console.log(res);
 });
