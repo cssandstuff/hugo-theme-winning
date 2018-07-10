@@ -1,10 +1,6 @@
-theme = "winning"
-title = "Winning"
-
 baseurl = "your-site-address"
-title = "your-site-name"
-themesdir = "../.."
-
+title = "Winning"
+theme = "winning"
 disableKinds = ["RSS"]
 defaultContentLanguage = "en"
 enableRobotsTXT = true
