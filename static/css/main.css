@@ -35,7 +35,7 @@ footer a:hover{
 }
 .main{
   grid-area: main;
-  margin: 0 auto 40px;
+  margin: 1em auto 40px;
   line-height: 1.2em;
   text-align: left;
   width: 70%;
