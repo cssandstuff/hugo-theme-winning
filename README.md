@@ -26,7 +26,7 @@ This is a Simple one page CV template.
 ```
 npm i html-pdf -g
 ```
-Copy ./generatepdf.js to the root of your hugo project.
+Copy generatepdf.js to the root of your hugo project.
 ```
 node ./generatepdf.js
 ```
