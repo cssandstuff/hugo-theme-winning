@@ -18,7 +18,7 @@ This is a Simple one page CV template.
 
    ```git clone --recursive https://github.com/cssandstuff/hugo-theme-winning.git themes/winning```
 
-5. Copy _index.mq from hugoBasicExample/themes/winning/exampleSite/content/_index.md to
+5. Copy _index.md from hugoBasicExample/themes/winning/exampleSite/content/_index.md to
    hugoBasicExample/content/_index.md
    
 6. Let's start HUGO Server in the terminal
