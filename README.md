@@ -21,11 +21,12 @@ This is a Simple one page CV template.
 5. Copy _index.md from hugoBasicExample/themes/winning/exampleSite/content/_index.md to
    hugoBasicExample/content/_index.md 
    This file shows you how you need to structure your markdown to best work with this theme.
+   
    ```cp themes/winning/exampleSite/content/_index.md content/_index.md```
    
 6. Let's start HUGO Server in the terminal
 
-   ```HUGO_THEME=winning hugo server -t winning```
+   ```HUGO_THEME=winning hugo server```
 
 ## PDF Generation
 ```
