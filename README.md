@@ -19,7 +19,8 @@ This is a Simple one page CV template.
    ```git clone --recursive https://github.com/cssandstuff/hugo-theme-winning.git themes/winning```
 
 5. Copy _index.md from hugoBasicExample/themes/winning/exampleSite/content/_index.md to
-   hugoBasicExample/content/_index.md
+   hugoBasicExample/content/_index.md 
+   This file shows you how you need to structure your markdown to best work with this theme.
    
 6. Let's start HUGO Server in the terminal
 
