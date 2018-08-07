@@ -1,4 +1,4 @@
-baseurl = "your-site-address"
+baseurl = "https://example.com"
 title = "Winning"
 theme = "hugo-theme-Winning"
 themesdir = "../.."
