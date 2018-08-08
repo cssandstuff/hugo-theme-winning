@@ -36,3 +36,6 @@ Copy ./generatepdf.js to the root of your hugo project.
 ```
 node ./generatepdf.js
 ```
+
+## License
+MIT Licensed, see [LICENSE](https://github.com/cssandstuff/hugo-theme-winning/blob/master/LICENSE.md).
