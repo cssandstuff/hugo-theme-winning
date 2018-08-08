@@ -1,6 +1,6 @@
 baseurl = "https://example.com"
 title = "Winning"
-theme = "hugo-theme-Winning"
+theme = "hugo-theme-winning"
 themesdir = "../.."
 
 disableKinds = ["RSS"]
