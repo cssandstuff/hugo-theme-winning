@@ -1,3 +1,4 @@
+/* Vanilla CSS you should try it */
 html, body{
   font-family: 'Fira sans', sans-serif;
   background: url('../img/noisyly.png') repeat fixed, linear-gradient(to bottom, rgba(28,20,20,0.26) 0%,rgba(155,155,155,0) 0.2em) fixed;
@@ -15,6 +16,14 @@ footer a:hover{
   border-color: rgb(252, 76, 122);
 }
 
+.footer{
+  grid-area: footer;
+  padding-bottom: 5em;
+  width: 80%;
+  display: block;
+}
+
+/* CSS Grid for laying out elements */
 .grid-layout-1{
   display: grid;
   grid-gap: 1em;
@@ -122,14 +131,7 @@ footer a:hover{
   margin-top: 5px;
 }
 
-.footer{
-  grid-area: footer;
-  padding-bottom: 5em;
-  width: 80%;
-  display: block;
-}
-
-
+/* Typographic defaults */
 h1, h2, h3, h4, h5, h6{
   text-align: left;
 }
@@ -214,6 +216,57 @@ ul li{
   padding-bottom: 1em;
 }
 
+.download, .download .download-icon, .download .download-icon:before, 
+.download .download-icon:after{
+  transition: 0.7s all cubic-bezier(0.42, 0, 0.57, 1.96);
+}
+  .download:hover{
+    color: rgb(252, 76, 122);
+  }
+
+  .download:hover .download-icon{
+    transform: scale(1);
+    border-color: rgb(252, 76, 122);
+  }
+  .download:hover .download-icon:before, 
+  .download:hover .download-icon:after{
+    background: rgb(252, 76, 122);
+  }
+  .download-icon{
+    width: 29px;
+    height: 29px;
+    border: 2px solid #333;
+    border-radius: 5em;
+    display: inline-block;
+    position: relative;
+    margin-left: -36px;
+    top: 8px; left: 0px;
+    transform: scale(0.8);
+  }
+  .download-icon:before{
+    position: absolute;
+    left: 9px;
+    top: 8px;
+    transform: rotate(45deg);
+    content: '';
+    display: block;
+    height: 2px;
+    width: 10px;
+    background: #333;
+  }
+  .download-icon:after{
+    position: absolute;
+    left: 9px;
+    bottom: 9px;
+    transform: rotate(-45deg);
+    content: '';
+    display: block;
+    height: 2px;
+    width: 10px;
+    background: #333;
+  }
+
+/* Utilities */
 .-span-cols-6 ul li{
   padding-left: 0.6em;
 }
@@ -229,65 +282,11 @@ ul li{
   top: -1px;
 }
 
-#angle1{
-  transform-origin: 10px 10px;
-}
-
 .-clearfix{
   display: block;
   clear: both;
 }
 
-.download, .download .download-icon, .download .download-icon:before, 
-.download .download-icon:after{
-  transition: 0.7s all cubic-bezier(0.42, 0, 0.57, 1.96);
-}
-
-.download:hover{
-  color: rgb(252, 76, 122);
-}
-
-.download:hover .download-icon{
-  transform: scale(1);
-  border-color: rgb(252, 76, 122);
-}
-.download:hover .download-icon:before, 
-.download:hover .download-icon:after{
-  background: rgb(252, 76, 122);
-}
-.download-icon{
-  width: 29px;
-  height: 29px;
-  border: 2px solid #333;
-  border-radius: 5em;
-  display: inline-block;
-  position: relative;
-  margin-left: -36px;
-  top: 8px; left: 0px;
-  transform: scale(0.8);
-}
-.download-icon:before{
-  position: absolute;
-  left: 9px;
-  top: 8px;
-  transform: rotate(45deg);
-  content: '';
-  display: block;
-  height: 2px;
-  width: 10px;
-  background: #333;
-}
-.download-icon:after{
-  position: absolute;
-  left: 9px;
-  bottom: 9px;
-  transform: rotate(-45deg);
-  content: '';
-  display: block;
-  height: 2px;
-  width: 10px;
-  background: #333;
-}
 .-print-only{ display: none}
 .-print-only p{
   margin-bottom: 0;
@@ -302,6 +301,8 @@ ul li{
   padding-top: 2em;
 }
 
+
+/* Print specific stuff (mainly for pdf generation) */
 @media print{
   .header{
     padding-top: 0;
@@ -403,7 +404,7 @@ ul li{
   }
 }
 
-/* responsiveness */
+/* Responsiveness */
 @media only screen and (max-width: 800px) {
   .-float-left, .-float-right{
     float: none;
