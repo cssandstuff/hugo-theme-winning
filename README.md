@@ -1,6 +1,6 @@
 # Winning
 #### A one page CV template for [Hugo](http://gohugo.io/).
-Generates a nicely formatted CV from a markdown file. [View Demo](https://themes.gohugo.io/theme/hugo-theme-winning/)
+Generates a nicely formatted CV from a markdown file. [View Demo](https://themes.gohugo.io/themes/hugo-theme-winning/)
 
 ![Winning Theme Screenshot](https://github.com/cssandstuff/hugo-theme-winning/blob/master/images/screenshot.png)
 
